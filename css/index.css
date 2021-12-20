@@ -1,0 +1,98 @@
+*{
+    font-family: 'Times New Roman', Georgia, Times, serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background: rgb(23,63,105);
+}
+
+h3{
+    color: lightcyan;
+}
+
+nav p{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-calculator:before {
+    content: "\f1ec";
+    color: aliceblue;
+    width: 7px;
+    height: 7px;
+    padding: 10px;
+}
+
+/* Main */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86.8vh;
+    background-size: cover;
+    background: url(https://www.educaciontrespuntocero.com/wp-content/uploads/2020/03/fondo-matematicas_23-2148146270.jpg.webp);
+}
+
+.calculadora{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 170px;
+    background:rgba(218,218,218,0.2);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 1px 2px 19px 12px #000000
+}
+
+.form-control{
+    display: block;
+    padding: 5px;
+}
+
+.calculadora h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+button{
+    margin-left: 30%;
+    margin-top: 5px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(23,63,105);
+    width:100%;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo-foot{
+    display: flex;
+    padding-right: 30px;
+    padding-left: 20px;
+    width: 10px;
+    height: 10px;
+    color: aliceblue;
+}
+

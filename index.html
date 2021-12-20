@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="Js/index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>calculadora</title>
+</head>
+
+<body>
+        <header>
+            <nav>
+                <div>
+                    <a href="#" class="logo">
+                        <i class="fas fa-calculator"></i>
+                    </a>
+                </div>
+                <h3>CALCULADORA BASICA ONLINE</h3>
+                <div>
+                    <a href="#" class="logo">
+                        <i class="fas fa-calculator"></i>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="calculadora">
+                    <div class="form-control">
+                        <form action="">
+                            <div>
+                                <input type="number" id="primero" placeholder="Ingrese un numero">
+                            </div>
+                            <div>
+                                <input type="number" id="segundo" placeholder="Ingrese un numero">
+                            </div>
+                            <div>
+                                <div>
+                                    <select id="selector">
+                                        <option disabled selected value="0">--Seleccione Operacion--</option>
+                                        <option>Sumar</option>
+                                        <option>Restar</option>
+                                        <option>Multiplicar</option>
+                                        <option>Dividir</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button type="button" onclick="Calculos()">Calcular</button>
+                            <h4 id="resultado">resultado</h4>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="logo-foot">
+                <i class="fas fa-plus"></i>
+            </div>
+            <div class="logo-foot">
+                <i class="fas fa-minus"></i>
+            </div>
+            <h3>OPERACIONES MATEMATICAS BASICAS</h3>
+            <div class="logo-foot">
+                <i class="fas fa-divide"></i>
+            </div>
+            <div class="logo-foot">
+                <i class="fas fa-times"></i>
+            </div>
+        </footer>
+</body>
+
+</html>
